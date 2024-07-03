@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Menu from './component/Menu';
-import Biography from './component/Biography';
+import Biography from './component/Biography'
 import MostPopularPainting from './component/MostPopularPicture';
 import Gallery from './component/GalaryPictures';
 import RandomNumber from './component/RandomNumber';
@@ -15,6 +15,7 @@ function App() {
         <header>
           <Menu />
         </header>
+
         <RandomNumber min={10} max={20} />
         <Stoplight startLight='red' />
         <Routes>
